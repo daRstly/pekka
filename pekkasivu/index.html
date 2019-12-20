@@ -1,0 +1,103 @@
+<html><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="tyyli.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+</head><body contenteditable="false">
+
+<!-- Navigation -->
+<nav class="w3-bar w3-black">
+  <a href="http://www.theatredespetitesames.com/en/pekka_video.html" class="w3-button w3-bar-item">Pekka trailer</a>
+  <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="w3-button w3-bar-item">Ei ainakaan rick roll</a>
+  <a href="https://www.youtube.com/watch?v=Y5KV0axPgog" class="w3-button w3-bar-item">Bäger :)</a>
+  <a href="darstlycfg.zip" class="w3-button w3-bar-item">daRstly cs:go settings</a>
+  <a href="https://www.youtube.com/channel/UCLFeK5PRbpafqPxKjpeVWhA/featured" class="w3-button w3-bar-item">daRstly youtube channel</a>
+  <a href="https://steamcommunity.com/id/darstly/" class="w3-button w3-bar-item">daRstly steam profile</a>
+  <a href="https://www.youtube.com/channel/UCBN8Yxp4aoq5Vyr3a62ZBeA" class="w3-button w3-bar-item">Sanders youtube channel</a>
+  <a href="https://steamcommunity.com/profiles/76561198158041635" class="w3-button w3-bar-item">Sanders steam profile</a>
+</nav>
+
+<!-- Slide Show -->
+<section>
+  <img class="mySlides" src="CSGO-Banner-Freetze.png" style="width: 100%; display: none;" width="1024" height="576">
+  <img class="mySlides" src="bodaripekka.png" style="width: 100%; display: none;" width="1024" height="576">
+</section>
+
+<!-- Band Description -->
+<section class="w3-container w3-center w3-content" style="max-width:600px">
+  <h2 class="w3-wide">FREETZE</h2>
+  <p class="w3-opacity"><i>kys.</i></p>
+  <p>juu siis mitä tähän pitäs kirjottaa</p>
+</section>
+
+<!-- Band Members -->
+<section class="w3-row-padding w3-center w3-light-grey">
+  <article class="w3-third">
+    
+    <img src="kissa.png" alt="Random Name" style="width:50%">
+    <p>kissa</p>
+  </article>
+
+  
+  <article class="w3-third">
+   
+    <img src="angrypekkawithtext.png" alt="Random Name" style="width:50%">
+    <p>meme.</p>
+  </article>
+
+  <article class="w3-third">
+    
+    <img src="Sieppaad.png" alt="Random Name" style="width:50%">
+    <p>wtf dude</p>
+  </article>
+</section>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
+  <a href="https://steamcommunity.com/groups/Freetze"><i class="fa fa-steam"></i></a>
+  <p class="w3-medium">
+  Powered by FREETZE
+  </p>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
+</script>
+
+ <head>
+  <link rel="stylesheet" href="style.css" type="text/css">
+ </head>
+
+ <body>
+
+  <form action="index.php" method="POST">
+
+   <label> Name: 
+    <input type="text" name="Name" class="Input" style="width: 225px" required>
+   </label>
+   <br><br>
+   <label> Comment: <br>
+    <textarea name="Comment" class="Input" style="width: 300px" required></textarea>
+   </label>
+   <br><br>
+   <input type="submit" name="Submit" value="Submit Comment" class="Submit">
+
+  </form>
+
+ </body>
+
+
+</body></html>
